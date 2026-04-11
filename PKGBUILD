@@ -10,9 +10,9 @@ depends=('python>=3.10' 'fuse2')
 provides=('pratibmb')
 conflicts=('pratibmb')
 options=('!strip')
-source=("${pkgname}-${pkgver}.AppImage::https://github.com/tapaskar/Pratibmb/releases/download/v${pkgver}/Pratibmb_${pkgver}_amd64.AppImage"
+source=("pratibmb-bin-${pkgver}.AppImage::https://github.com/tapaskar/Pratibmb/releases/latest/download/Pratibmb_${pkgver}_amd64.AppImage"
         "pratibmb.desktop")
-sha256sums=('SKIP'
+sha256sums=('bcb825b386ef73f1576937b8063667c800d9016a46ffea7f1be340fa6f83cb9b'
             'SKIP')
 
 prepare() {
