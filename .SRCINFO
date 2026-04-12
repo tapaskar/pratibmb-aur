@@ -1,6 +1,6 @@
 pkgbase = pratibmb-bin
 	pkgdesc = Chat with your 10-years-younger self. 100% local, no cloud, no telemetry
-	pkgver = 0.2.0
+	pkgver = 0.3.0
 	pkgrel = 1
 	url = https://pratibmb.com
 	arch = x86_64
@@ -10,9 +10,9 @@ pkgbase = pratibmb-bin
 	provides = pratibmb
 	conflicts = pratibmb
 	options = !strip
-	source = pratibmb-bin-0.2.0.AppImage::https://github.com/tapaskar/Pratibmb/releases/latest/download/Pratibmb_0.2.0_amd64.AppImage
+	source = pratibmb-bin-0.3.0.AppImage::https://github.com/tapaskar/Pratibmb/releases/latest/download/Pratibmb_0.3.0_amd64.AppImage
 	source = pratibmb.desktop
-	sha256sums = bcb825b386ef73f1576937b8063667c800d9016a46ffea7f1be340fa6f83cb9b
+	sha256sums = f6545518b86046d80641b189a5ed1ee0b4576e6bc9d7e2c6150aa49959f35088
 	sha256sums = SKIP
 
 pkgname = pratibmb-bin
