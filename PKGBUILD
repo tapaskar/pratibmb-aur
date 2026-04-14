@@ -1,6 +1,6 @@
 # Maintainer: Tapas <tapas@pratibmb.com>
 pkgname=pratibmb-bin
-pkgver=0.3.0
+pkgver=0.5.0
 pkgrel=1
 pkgdesc="Chat with your 10-years-younger self. 100% local, no cloud, no telemetry"
 arch=('x86_64')
@@ -12,7 +12,7 @@ conflicts=('pratibmb')
 options=('!strip')
 source=("pratibmb-bin-${pkgver}.AppImage::https://github.com/tapaskar/Pratibmb/releases/latest/download/Pratibmb_${pkgver}_amd64.AppImage"
         "pratibmb.desktop")
-sha256sums=('f6545518b86046d80641b189a5ed1ee0b4576e6bc9d7e2c6150aa49959f35088'
+sha256sums=('b89bce9ecbf499d93cb508b9468bf19a3b695286dc280ab30ca4cd097a055be8'
             'SKIP')
 
 prepare() {
